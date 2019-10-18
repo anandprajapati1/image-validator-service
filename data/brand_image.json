@@ -4,11 +4,11 @@
         "standards": [
             {
                 "name": "Hero Banner 1",
-                "url": "./sample-banner.jpg"
+                "url": "https://warm-reaches-88469.herokuapp.com/sample-banner.jpg"
             },
             {
                 "name": "Packshot",
-                "url": "./sample-packshot.jpg"
+                "url": "https://warm-reaches-88469.herokuapp.com/sample-packshot.jpg"
             }
         ]
     },
@@ -21,11 +21,11 @@
         "standards": [
             {
                 "name": "Hero Banner 1",
-                "url": "./sample-banner.jpg"
+                "url": "https://warm-reaches-88469.herokuapp.com/sample-banner.jpg"
             },
             {
                 "name": "Packshot",
-                "url": "./sample-packshot.jpg"
+                "url": "https://warm-reaches-88469.herokuapp.com/sample-packshot.jpg"
             }
         ]
     },
@@ -34,7 +34,7 @@
         "standards": [
             {
                 "name": "Hero Banner 1",
-                "url": "./sample-banner.jpg"
+                "url": "https://warm-reaches-88469.herokuapp.com/sample-banner.jpg"
             }
         ]
     }
