@@ -8,13 +8,23 @@
     "start": "node index.js",
     "deploy": "git push heroku master"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anandprajapati1/image-validator-service.git"
+  },
   "author": "Anand Prajapati",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anandprajapati1/image-validator-service/issues"
+  },
   "dependencies": {
     "body-parser": "^1.18.2",
     "cors": "^2.8.5",
     "esm": "^3.2.25",
     "express": "^4.15.5",
     "uuid": "^3.3.3"
+  },
+  "engines": {
+    "node": "10.x"
   }
 }
