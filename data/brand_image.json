@@ -1,0 +1,41 @@
+[
+    {
+        "brand": "SVG",
+        "standards": [
+            {
+                "name": "Hero Banner 1",
+                "url": "./sample-banner.jpg"
+            },
+            {
+                "name": "Packshot",
+                "url": "./sample-packshot.jpg"
+            }
+        ]
+    },
+    {
+        "brand": "CloseUp",
+        "standards": []
+    },
+    {
+        "brand": "vaseline",
+        "standards": [
+            {
+                "name": "Hero Banner 1",
+                "url": "./sample-banner.jpg"
+            },
+            {
+                "name": "Packshot",
+                "url": "./sample-packshot.jpg"
+            }
+        ]
+    },
+    {
+        "brand": "dove",
+        "standards": [
+            {
+                "name": "Hero Banner 1",
+                "url": "./sample-banner.jpg"
+            }
+        ]
+    }
+]
