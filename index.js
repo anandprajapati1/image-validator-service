@@ -15,8 +15,6 @@ app.post('/api/setImageStandard', async (req, res) => {
     let _reqdata = req.body;
     if (brandData.filter(t => { return t.brand.toLowerCase() === _reqdata.brand.toLowerCase(); }).length === 0) {
         brandData.push(_reqdata);
-        console.log("new record found");
-
     }
     fs.writeFileSync('./data/brand_image.json', JSON.stringify(brandData));
     res.send("Done");
