@@ -16,7 +16,7 @@ app.post('/api/setImageStandard', async (req, res) => {
     if (brandData.filter(t => { return t.brand.toLowerCase() === _reqdata.brand.toLowerCase(); }).length === 0) {
         brandData.push(_reqdata);
         console.log("new record found");
-        
+
     }
     fs.writeFileSync('./data/brand_image.json', JSON.stringify(brandData));
     res.send("Done");
@@ -26,7 +26,7 @@ app.get('/api/getImageStandard/:brandName', (req, res) => {
     let _bdata = brandData.filter(t => {
         return t.brand.toLowerCase() === req.params.brandName.toLowerCase();
     });
-    res.send(_bdata[0].standards);
+    res.send(_bdata.length ? _bdata[0].standards : null);
 });
 
 app.listen(process.env.port || process.env.PORT || 3000);
