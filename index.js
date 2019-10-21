@@ -20,6 +20,21 @@ app.post('/api/setImageStandard', async (req, res) => {
     res.send("Done");
 });
 
+app.post('/api/updateImageStandard', async (req, res) => {
+    let _reqdata = req.body, _index = -1;
+    brandData.forEach((t, i) => {
+        if (t.brand.toLowerCase() === _reqdata.brand.toLowerCase()) {
+            _index = i;
+        }
+    });
+
+    if (_index>-1) {
+        brandData[_index].standards = _reqdata.standards;
+    }
+    fs.writeFileSync('./data/brand_image.json', JSON.stringify(brandData));
+    res.send("Done");
+});
+
 app.get('/api/getImageStandard/:brandName', (req, res) => {
     let _bdata = brandData.filter(t => {
         return t.brand.toLowerCase() === req.params.brandName.toLowerCase();

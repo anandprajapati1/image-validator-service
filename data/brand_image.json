@@ -4,11 +4,13 @@
         "standards": [
             {
                 "name": "Hero Banner 1",
-                "url": "https://warm-reaches-88469.herokuapp.com/sample-banner.jpg"
+                "url": "https://warm-reaches-88469.herokuapp.com/sample-banner.jpg",
+                "reference-page": ""
             },
             {
                 "name": "Packshot",
-                "url": "https://warm-reaches-88469.herokuapp.com/sample-packshot.jpg"
+                "url": "https://warm-reaches-88469.herokuapp.com/sample-packshot.jpg",
+                "reference-page": ""
             }
         ]
     },
@@ -21,11 +23,13 @@
         "standards": [
             {
                 "name": "Hero Banner 1",
-                "url": "https://warm-reaches-88469.herokuapp.com/sample-banner.jpg"
+                "url": "https://warm-reaches-88469.herokuapp.com/sample-banner.jpg",
+                "reference-page": ""
             },
             {
                 "name": "Packshot",
-                "url": "https://warm-reaches-88469.herokuapp.com/sample-packshot.jpg"
+                "url": "https://warm-reaches-88469.herokuapp.com/sample-packshot.jpg",
+                "reference-page": ""
             }
         ]
     },
@@ -34,7 +38,8 @@
         "standards": [
             {
                 "name": "Hero Banner 1",
-                "url": "https://warm-reaches-88469.herokuapp.com/sample-banner.jpg"
+                "url": "https://warm-reaches-88469.herokuapp.com/sample-banner.jpg",
+                "reference-page": ""
             }
         ]
     }
