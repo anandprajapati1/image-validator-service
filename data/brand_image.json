@@ -5,12 +5,12 @@
             {
                 "name": "Hero Banner 1",
                 "url": "https://warm-reaches-88469.herokuapp.com/sample-banner.jpg",
-                "reference-page": ""
+                "reference-page": "https://seventhgeneration-co-uk-agency-starterkit.unileversolutions.com/"
             },
             {
                 "name": "Packshot",
                 "url": "https://warm-reaches-88469.herokuapp.com/sample-packshot.jpg",
-                "reference-page": ""
+                "reference-page": "https://seventhgeneration-co-uk-agency-starterkit.unileversolutions.com/products/laundry.html"
             }
         ]
     },

@@ -42,5 +42,10 @@ app.get('/api/getImageStandard/:brandName', (req, res) => {
     res.send(_bdata.length ? _bdata[0].standards : null);
 });
 
+app.get('/api/getImageStandards', (req, res) => {
+    res.send(brandData);
+});
+
 app.listen(process.env.port || process.env.PORT || 3000);
-console.log(brandData);
+// console.log(brandData);
+console.log("Server running on port "+ (process.env.port || process.env.PORT || 3000));
