@@ -4,22 +4,22 @@
         "standards": [
             {
                 "name": "Hero banner (Top)",
-                "url": "http://warm-reaches-88469.herokuapp.com/brandImage_1573450790989.jpg",
+                "url": "https://warm-reaches-88469.herokuapp.com/brandImage_1573450790989.jpg",
                 "referencePage": "https://seventhgeneration-ca-agency-starterkit.unileversolutions.com"
             },
             {
                 "name": "Single featured article(rectangular image) on home page",
-                "url": "http://warm-reaches-88469.herokuapp.com/brandImage_1573450843005.jpg",
+                "url": "https://warm-reaches-88469.herokuapp.com/brandImage_1573450843005.jpg",
                 "referencePage": "https://seventhgeneration-ca-agency-starterkit.unileversolutions.com"
             },
             {
                 "name": "Product packshot",
-                "url": "http://warm-reaches-88469.herokuapp.com/brandImage_1573451023804.jpg",
+                "url": "https://warm-reaches-88469.herokuapp.com/brandImage_1573451023804.jpg",
                 "referencePage": "https://seventhgeneration-ca-agency-starterkit.unileversolutions.com"
             },
             {
                 "name": "SVG Logo",
-                "url": "http://warm-reaches-88469.herokuapp.com/brandImage_1573451059404.png",
+                "url": "https://warm-reaches-88469.herokuapp.com/brandImage_1573451059404.png",
                 "referencePage": "https://seventhgeneration-ca-agency-starterkit.unileversolutions.com"
             }
         ]

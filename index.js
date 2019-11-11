@@ -27,7 +27,7 @@ app.post('/api/imageUpload', async (req, res) => {
         if (err) {
             return res.end("Something went wrong!");
         }
-        return res.end(req.protocol + '://' + req.get('host') + "/" + req.file.filename);
+        return res.end("https" + "://" + req.get("host") + "/" + req.file.filename);
     });
 });
 
